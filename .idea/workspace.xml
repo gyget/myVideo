@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8885cc73-47b8-45b4-a0ac-3f45dd43e5af" name="Default" comment="" />
+    <list default="true" id="8885cc73-47b8-45b4-a0ac-3f45dd43e5af" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gitCourse" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -21,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+            <state relative-caret-position="275">
+              <caret line="27" column="36" lean-forward="false" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -38,11 +41,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="gitCourse" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gitCourse">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="mv.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/mv.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="63">
-              <caret line="639" column="26" lean-forward="true" selection-start-line="639" selection-start-column="26" selection-end-line="639" selection-end-column="26" />
+              <caret line="639" column="26" lean-forward="false" selection-start-line="639" selection-start-column="26" selection-end-line="639" selection-end-column="26" />
               <folding>
                 <element signature="e#2404#3988#0" expanded="false" />
                 <element signature="e#3997#6777#0" expanded="false" />
@@ -185,6 +198,7 @@
         <option value="$PROJECT_DIR$/css/mvStyle.css" />
         <option value="$PROJECT_DIR$/js/mv.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/gitCourse" />
       </list>
     </option>
   </component>
@@ -332,12 +346,12 @@
       <workItem from="1511327194184" duration="23966000" />
       <workItem from="1511397085696" duration="134106000" />
       <workItem from="1511837710732" duration="17399000" />
-      <workItem from="1512347500918" duration="3484000" />
+      <workItem from="1512347500918" duration="4221000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="275928000" />
+    <option name="totallyTimeSpent" value="276665000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -374,7 +388,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ckplayerX/material/srt.srt" />
     <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/chplayer/index.html" />
     <entry file="file://$PROJECT_DIR$/videoView.js" />
@@ -550,7 +563,7 @@
     <entry file="file://$PROJECT_DIR$/js/mv.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
-          <caret line="639" column="26" lean-forward="true" selection-start-line="639" selection-start-column="26" selection-end-line="639" selection-end-column="26" />
+          <caret line="639" column="26" lean-forward="false" selection-start-line="639" selection-start-column="26" selection-end-line="639" selection-end-column="26" />
           <folding>
             <element signature="e#2404#3988#0" expanded="false" />
             <element signature="e#3997#6777#0" expanded="false" />
@@ -560,8 +573,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        <state relative-caret-position="275">
+          <caret line="27" column="36" lean-forward="false" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -570,6 +583,14 @@
             <element signature="e#3159#3165#0" expanded="true" />
             <element signature="e#3165#3171#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitCourse">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
