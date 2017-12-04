@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/public.css" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,initial-scale=1" />
+    <!--自定义样式-->
+    <link rel="stylesheet" type="text/css" href="css/mvStyle.css" />
+</head>
+
+<body>
+<!--124-->
+<div class="mv-index mv-bgCover">
+    <div class="mv-modal">
+        <!--头部：标题-->
+        <div class="mv-heading clearFix">
+            <!--logo区域-->
+            <div class="mv-logo selectNone mv-fl">
+                <i class="zm-logo-bg"></i>
+                <span class="mv-line">|</span>
+                <h4 class="font-20">播放器</h4>
+            </div>
+            <!--搜索框-->
+            <div class="mv-search mv-fl">
+                <input type="text" >
+                <i class="mv-searchIcon"></i>
+            </div>
+            <!--设置项-->
+            <div class="mv-setting selectNone mv-fr">
+                <span class="font-14 login">登陆</span>
+                <span class="font-14 set-audioPlayer">设置</span>
+            </div>
+            <!--tab切换-->
+            <div class="mv-radio selectNone mv-fr">
+                <div class="tab-radio mv-fl font-18 selected"><i class="tabIcon-radio"></i>音频</div>
+                <div class="tab-mv mv-fl font-18"><i class="tabIcon-mv"></i>MV</div>
+            </div>
+        </div>
+        <!--主体部分-->
+        <div class="MVMain">
+            <!--播放器主体部分-->
+            <div class="MVContent clearFix">
+                <!--左侧目录-->
+                <div class="MVContent-left selectNone mv-fl">
+                    <!--播放历史、我的收藏切换-->
+                    <div class="left-tab">
+                        <ul>
+                            <li class="MVHistory selected"><i></i><span>播放历史</span></li>
+                            <li class="MVCollection"><i></i><span>我的收藏</span></li>
+                        </ul>
+                    </div>
+                    <div class="left-top">MV播放历史</div>
+                    <!--播放列表-->
+                    <div class="left-middle">
+                        <!--播放列表-->
+                        <ul class="clearFix"></ul>
+                    </div>
+                    <!--弹幕-->
+                    <div class="left-bottom">
+                        <div class="mvBarrage">
+                            <div class="mvBarrageTitle">弹幕文字：</div>
+                            <textarea name="" rows="" cols="" ></textarea>
+                            <div class="mvBarrageBtn">发送</div>
+                        </div>
+                    </div>
+                </div>
+                <!--视频播放器区域-->
+                <div class="MVContent-middle mv-fl">
+                    <div id="mvVideo" class="mv-video flowHidden">
+                        <video style="width: 100%;height: 100%" src="" poster="./img/mvImg/video-zuma.png"></video>
+                    </div>
+                </div>
+                <!--歌词区域-->
+                <div class="MVContent-right mv-fr">
+                    <div class="lyricTitle">
+                        <div class="titleTab selectNone">歌&nbsp;&nbsp;词</div>
+                    </div>
+                    <div class="tab-bgBox">
+                        <div class="tab-bg mv-bgCover">
+                            <a href="javascript:;" class="dianZan-btn selectNone">
+                                <span class="praise"><i></i>+1</span>
+                                <span class="praiseOver mvHidden">已点赞</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mvLyric">
+                        <div class="songName">
+                            <p>最好的时代也是最坏的时代</p>
+                            <p>创作人：李春波</p>
+                        </div>
+                        <div class="line"></div>
+                        <div class="songContent"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--播放器底部-->
+        <div class="MVFooter">
+            <!--播放按钮-->
+            <div class="footer clearFix">
+                <div class="play mv-fl">
+                    <a href="javascript:" class="prevPlay"></a>
+                    <a href="javascript:" class="player mvPlay"></a>
+                    <a href="javascript:" class="nextPlay"></a>
+                </div>
+                <!--播放进度条-->
+                <div class="progressBar mv-fl">
+                    <div class="playName clearFix">
+                        <span class="mvName mv-fl">夏至未至-胡夏</span>
+                        <span class="playTime mv-fr selectNone">
+                            <i>00:00</i>/<i>00:00</i>
+                        </span>
+                    </div>
+                    <!--进度信息-->
+                    <div class="playLine">
+                        <!--总长度-->
+                        <span class="proLoaded"></span>
+                        <!--已加载的缓冲-->
+                        <span class="progress"></span>
+                        <!--进度-->
+                        <span class="proBar"></span>
+                        <!--点-->
+                        <span class="proDot"></span>
+                    </div>
+                </div>
+                <!--音量-->
+                <div class="playVolume mv-fl">
+                    <span class="volumeIcon normal"></span>
+                    <div class="volumePro">
+                        <!--总长度-->
+                        <span class="volumeLoaded"></span>
+                        <!--点-->
+                        <span class="volumeDot"></span>
+                        <!--进度-->
+                        <span class="volumeBar"></span>
+                    </div>
+                </div>
+                <!--分享，弹幕，全屏设置-->
+                <div class="playSetting mv-fr">
+                    <span class="settingShare mv-fl"></span>
+                    <span class="settingDanMu open mv-fl"></span>
+                    <span class="fullScreen settingFullScreen mv-fl"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/mv.js"></script>
+<script src="js/callMVMethod.js"></script>
+</body>
+</html>

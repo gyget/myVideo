@@ -1,0 +1,242 @@
+﻿
+/******！！请勿随意删除！！********/
+
+/*border*/
+.border-r-1{ border-right: 1px solid #cccccc;}
+.border-l-1{ border-left: 1px solid #cccccc;}
+.border-b-1{ border-bottom: 1px solid #cccccc;}
+.border-t-1{ border-top: 1px solid #cccccc;}
+.border-1-c{ border: 1px solid #cccccc;}
+
+.hidden{ display: none!important; visibility: hidden!important; padding:0!important; margin:0!important; width:0!important;}
+.fl{float:left;}
+.fr{float:right;}
+
+.col-w-1{ width: 10%; float: left; position: relative;}
+.col-w-2{ width: 20%; float: left; position: relative;}
+.col-w-3{ width: 30%; float: left; position: relative;}
+.col-w-4{ width: 40%; float: left; position: relative;}
+.col-w-45{ width: 45%; float: left; position: relative;}
+.col-w-5{ width: 50%; float: left; position: relative;}
+.col-w-6{ width: 60%; float: left; position: relative;}
+.col-w-7{ width: 70%; float: left; position: relative;}
+.col-w-8{ width: 80%; float: left; position: relative;}
+.col-w-9{ width: 90%; float: left; position: relative;}
+.col-w-10{ width: 100%; float: left; position: relative;}
+.text-dec-none{text-decoration: none;}
+.text-dec-under{text-decoration: underline;}
+
+.dis-in-block{ display: inline-block;}
+.overflow-hidden{overflow: hidden;}
+.text-center .inputTextBox{ float: none; display: inline-block; text-align: left;}
+.text-center .inputSelectBox{ float: none; display: inline-block; text-align: left;}
+
+.text-center{ text-align: center;}
+.text-left{ text-align: left;}
+.text-right{ text-align: right;}
+.ps-relative{position: relative;}
+.ps-absoluet{position: absolute;}
+.w800{ width: 800px;}
+.w700{ width: 700px;}
+.w600{ width: 600px;}
+.w500{ width: 500px;}
+.w450{ width: 450px;}
+.w400{ width: 400px;}
+.w300{ width: 300px;}
+.w200{ width: 200px;}
+.w170{ width: 170px;}
+.w145{ width: 145px;}
+.w150{ width: 150px;}
+.w120{ width: 120px;}
+.w125{ width: 125px;}
+.w275{width: 275px;}
+.w190{width: 190px;}
+.w100{ width: 100px;}
+.w80{ width: 80px;}
+.w50{ width: 50px;}
+
+.padding-0-5{ padding: 0 5px;}
+.padding-0-1{ padding: 0 1px;}
+.padding-0-4{ padding: 0 4px;}
+.padding-0-10{ padding: 0 10px;}
+.padding-0-15{ padding: 0 15px;}
+.padding-15-0{padding: 15px 0;}
+.padding-0-20{ padding: 0 20px;}
+.padding-20-0{ padding: 20px 0;}
+.padding-25-0{ padding: 25px 0;}
+.padding-0-25{ padding: 0 25px;}
+.padding-0-30{ padding: 0 30px;}
+.padding-30-0{ padding: 30px 0;}
+.padding-2-0{ padding: 2px 0; display: inline-block;}
+.padding-2-2-0-2{ padding:2px 2px 0px 2px; display: inline-block;}
+.padding-2-5{ padding: 2px 5px; display: inline-block;}
+.padding-2-10{ padding: 2px 10px; display: inline-block;}
+.padding-2-15{ padding: 2px 15px; display: inline-block;}
+.padding-3-0{ padding: 3px 0; display: inline-block;}
+.padding-3-5{ padding: 3px 5px; display: inline-block;}
+.padding-3-10{ padding: 3px 10px; display: inline-block;}
+.padding-3-20{ padding: 3px 20px; display: inline-block;}
+.padding-4-0{ padding: 4px 0; display: inline-block;}
+.padding-4-5{ padding: 4px; display: inline-block;}
+.padding-4-10{ padding: 4px 10px; display: inline-block;}
+.padding-4-15{ padding: 4px 15px; display: inline-block;}
+.padding-4-20{ padding: 4px 20px; display: inline-block;}
+.padding-5-0{ padding: 5px 0; display: inline-block;}
+.padding-5-5{ padding: 5px; display: inline-block;}
+.padding-5-10{ padding: 5px 10px; display: inline-block;}
+.padding-5-15{ padding: 5px 15px; display: inline-block;}
+.padding-5-20{ padding: 5px 20px; display: inline-block;}
+.padding-10-0{ padding: 10px 0; display: inline-block;}
+.padding-10-5{ padding: 10px 5px; display: inline-block;}
+.padding-10-10{ padding: 10px 10px; display: inline-block;}
+.padding-10-15{ padding: 10px 15px; display: inline-block;}
+.padding-0-0{ padding: 0; display: inline-block;}
+.padding-view{ padding: 20px;}
+.margin-view{ margin: 5px 0;}
+.margin-0{ margin: 0;}
+.margin-0-5{ margin: 0 5px;}
+.margin-top225{ margin-top: 225px;}
+.margin-top75{ margin-top: 75px;}
+.margin-top65{ margin-top: 65px;}
+.margin-top50{ margin-top: 50px;}
+.margin-top45{ margin-top: 45px;}
+.margin-top35{ margin-top: 35px;}
+.margin-top30{ margin-top: 30px;}
+.margin-top25{ margin-top: 25px;}
+.margin-top20{ margin-top: 20px;}
+.margin-top15{ margin-top: 15px;}
+.margin-top10{ margin-top: 10px;}
+
+.margin-top2{ margin-top: 2px;}
+.margin-top3{ margin-top: 3px;}
+.margin-top4{ margin-top: 4px;}
+.margin-top5{ margin-top: 5px;}
+.margin-btm50{ margin-bottom: 50px;}
+.margin-btm40{ margin-bottom: 40px;}
+.margin-btm35{ margin-bottom: 35px;}
+.margin-btm30{ margin-bottom: 30px;}
+.margin-btm25{ margin-bottom: 25px;}
+.margin-btm20{ margin-bottom: 20px;}
+.margin-btm15{ margin-bottom: 15px;}
+.margin-btm10{ margin-bottom: 10px;}
+.margin-btm5{ margin-bottom: 5px;}
+.margin-l5{ margin-left: 5px;}
+.margin-l10{ margin-left: 10px;}
+.margin-l15{ margin-left: 15px;}
+.margin-l20{ margin-left: 20px;}
+.margin-l25{ margin-left: 25px;}
+.margin-l30{ margin-left: 30px;}
+.margin-l35{ margin-left: 35px;}
+.margin-l40{ margin-left: 40px;}
+.margin-l50{ margin-left: 50px;}
+.margin-l55{ margin-left: 55px;}
+.margin-l58{margin-left: 58px;}
+.margin-l70{margin-left: 70px;}
+.margin-l80{ margin-left: 80px;}
+.margin-l180{ margin-left: 180px;}
+.margin-l136{ margin-left: 136px;}
+.margin-l166{ margin-left: 166px;}
+.margin-r5{ margin-right: 5px;}
+.margin-r10{ margin-right: 10px;}
+.margin-r15{ margin-right: 15px;}
+.margin-r20{ margin-right: 20px;}
+.margin-r25{ margin-right: 25px;}
+.margin-r30{ margin-right: 30px;}
+.margin-r35{ margin-right: 35px;}
+.margin-r43{ margin-right: 43px;}
+.margin-r50{ margin-right: 50px;}
+
+/*设置字体大小*/
+.font-12{ font-size: 12px;}
+.font-14{ font-size: 14px;}
+.font-16{ font-size: 16px;}
+.font-18{ font-size: 18px;}
+.font-20{ font-size: 20px;}
+.font-22{ font-size: 22px;}
+.font-24{ font-size: 24px;}
+.font-28{ font-size: 28px;}
+.font-bold{ font-weight: bold;}
+.font-light{ font-weight: lighter;}
+/*标题渐变背景---11111*/
+.block-tit-bg{
+    background: #eeeeee;
+    background: -ms-linear-gradient(top, #fff,  #eee 30%);/* IE 10 */
+    background: -moz-linear-gradient(top,#fff,#eee 30%);/*火狐*/
+    background: -webkit-gradient(linear, 0% 0%, 0% 30%,from(#fff), to(#eee));/*谷歌*/
+    background: -webkit-linear-gradient(top, #fff, #eee 30%);   /*Safari5.1 Chrome 10+*/
+    background: -o-linear-gradient(top, #fff, #eee 30%);  /*Opera 11.10+*/
+}
+.block-shadow{
+    -moz-box-shadow: 0 2px 2px 0 rgba(221,221,221,1);
+    -webkit-box-shadow: 0 2px 2px 0 rgba(221,221,221,1);
+    box-shadow: 0 2px 2px 0 rgba(221,221,221,1);
+}
+.block-tit-bg-f1f1f1{
+    background: #f1f1f1;
+    background: -ms-linear-gradient(top, #fff,  #f1f1f1 30%);/* IE 10 */
+    background: -moz-linear-gradient(top,#fff,#f1f1f1 30%);/*火狐*/
+    background: -webkit-gradient(linear, 0% 0%, 0% 30%,from(#fff), to(#f1f1f1));/*谷歌*/
+    background: -webkit-linear-gradient(top, #fff, #f1f1f1 30%);   /*Safari5.1 Chrome 10+*/
+    background: -o-linear-gradient(top, #fff, #f1f1f1 30%);  /*Opera 11.10+*/
+}
+/*字体颜色*/
+.color-ff6600{ color: #ff6600;}
+.color-ff0000{color: #ff0000;}
+.color-111{color: #111;}
+.color-666{color: #666;}
+.color-999{color: #999;}
+.color-333{color: #333;}
+.color-fff{color: #fff;}
+
+/*input 样式*/
+input{
+    padding-left: 10px;
+    height:28px;
+    line-height:28px;
+    border: 1px solid rgb(222,222,222);
+    font-size: 13px;
+    color: #000;
+    border-radius: 2px;
+    width: 120px;
+}
+input:focus{  -webkit-box-shadow: 0 0 6px rgba(188,188,188,.4);
+    -moz-box-shadow:  0 0 6px rgba(188,188,188,.4);
+    box-shadow:  0 0 6px rgba(188,188,188,.4);}
+/*下拉框*/
+select{
+    font-family: "Microsoft YaHei";
+    border:1px solid #ccc;
+    height:30px;
+    line-height:30px;
+    padding:0 4px;
+    border-radius: 2px;
+    background-color:#fff;
+    font-size: 13px;
+}
+select:focus{
+    -webkit-box-shadow: 0 0 6px rgba(188,188,188,.4);
+    -moz-box-shadow:  0 0 6px rgba(188,188,188,.4);
+    box-shadow:  0 0 6px rgba(188,188,188,.4);
+}
+/*textarea*/
+textarea{resize: none;
+    border:none;
+    border:1px solid rgb(222,222,222);
+    border-radius:2px;
+    color:#000;
+    padding:10px;
+}
+textarea:focus{
+    -webkit-box-shadow: 0 0 6px rgba(188,188,188,.4);
+    -moz-box-shadow:  0 0 6px rgba(188,188,188,.4);
+    box-shadow:  0 0 6px rgba(188,188,188,.4);
+}
+
+
+
+
+
+
+
+
+

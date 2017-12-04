@@ -1,0 +1,179 @@
+/*html {overflow-x:hidden;overflow-y:hidden;}*/
+body{min-width: 1024px}
+.mv-index{background: url(../img/mvImg/mv-bg.png)  no-repeat; overflow: hidden}
+.mv-fl{float: left;}
+.mv-fr{float: right;}
+.clearFix:after{  content: "";height: 0;line-height: 0;display: block;visibility: hidden;clear: both;}
+.clearFix{zoom:1;}
+.mv-bgCover{background-size: cover;background-position: center}
+.mv-index i{ display: inline-block;}
+.selectNone{user-select:none;-webkit-user-select:none;-ms-user-select:none;-moz-user-select:none;}
+.mvHidden {display: none}
+.hideImportant{display: none!important;}
+.txtHide{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+
+
+
+/*头部样式开始*/
+.mv-modal{width:100%; height:100%;}
+.mv-heading{width:100%;height: 60px;padding-top: 10px;background-color: #085C8D;border: 1px solid #085C8D;}
+/*logo*/
+.mv-logo{width: 200px;height: 38px;margin-left: 23px;background: url(../img/mvImg/zuma-logo.png) no-repeat;}
+.mv-logo h4,
+.mv-line{color: rgba(255,255,255,.8);position: relative;top: 15px;left: 115px;}
+.mv-logo h4{width: 70px;top: -10px;left: 128px;}
+/*头部搜索框*/
+.mv-search{width: 250px;height: 50px;margin-left: 60px;padding-top: 5px;}
+.mv-search input{width: 232px;height: 30px;line-height:30px;border-radius: 16px;background-color: rgba(141,159,172,.7);
+    outline: none;text-indent:0.5em;border: none;padding-left: 20px;}
+.mv-searchIcon{width: 17px; height: 17px; background: url(../img/mvImg/search.png) no-repeat;position: relative;
+    left: 10px; top: -23px;}
+
+input{color: #c9c9c9;}
+input:-ms-input-placeholder {color: #fff;}
+input::-moz-placeholder,
+input:-moz-placeholder{color: #fff;opacity: 1;}
+input::-webkit-input-placeholder{color: #fff;}
+/*mv和radio的tab切换*/
+.mv-radio{ width: 200px; height: 36px; line-height: 36px; color: #085C8D; font-weight: bold; border-radius: 3px;
+    overflow: hidden;cursor: pointer}
+.mv-radio div{width: 100px;height: 36px;background-color: rgb(81,131,160);padding-left: 20px;}
+.mv-radio .selected{background-color: #fff;}
+.tabIcon-radio{width:30px;height:23px;background: url(../img/mvImg/audio.png) no-repeat;position: relative;
+    top: 6px;left: -5px;}
+.tabIcon-mv{width:25px;height:20px;background: url(../img/mvImg/MV.png) no-repeat;position: relative;
+    top: 3px;left: -5px;}
+/*登录、设置*/
+.mv-setting{color: #fff;font-weight: normal;margin: 5px 30px 0 150px}
+.mv-setting span:hover{cursor: pointer;text-decoration: underline;}
+.login{margin-right: 20px;}
+/*头部样式结束*/
+
+/*mv主体*/
+.MVMain{width: 100%;max-width: 1920px; height: 864px;padding: 30px 23px 0 23px; margin: 0 auto}
+/*播放器主体部分*/
+.MVContent{width: 100%;height: 835px;}
+/*<!--左侧目录-->*/
+.MVContent-left{width: 230px;height: 835px;background: rgba(242,242,242,.31);box-shadow: 0 0 5px rgba(0,0,0,.35);}
+.left-tab{width:100%;height: 80px;background: rgba(242,242,242,.31);box-shadow: 0 0 5px rgba(0,0,0,.35);
+    border-radius: 3px;overflow: hidden;}
+.left-tab li{width:100%;height: 40px;line-height: 40px;}
+.left-tab li:hover{background: #A4B4BA;cursor: pointer;color: #fff;}
+.left-tab li.selected { background-color: #84B3CA; color: #fff;}
+.MVCollection i,
+.MVHistory i{width: 17px;height: 17px;vertical-align: middle;margin: -5px 6px 0 16px;
+    background: url(../img/mvImg/play-history.png) no-repeat;}
+.MVCollection i{background: url(../img/mvImg/my-collection.png) no-repeat;}
+.left-top{margin-top: 3px;width:100%;height: 37px;border-bottom: #085C8D;line-height: 37px;font-weight: normal;
+    color: #fff;border-bottom: 1px solid #4E778F;border-top-left-radius: 3px;border-top-right-radius: 3px;
+    padding-left: 16px;font-size: 14px;}
+.left-middle {width:100%;height: 590px;}
+.left-middle li{width: 100%;height: 30px;position: relative}
+.left-middle li:hover {background: #A4B4BA;cursor: pointer;color: #fff;}
+.left-middle li.selected {background-color: #84B3CA;color: #fff;}
+.left-middle .mvName{width: 100%;height: 30px;line-height: 30px;}
+.left-middle li .mv-name{display: inline-block;max-width: 105px;height: 30px;
+    overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.left-middle li .mvNameMin{max-width: 80px;}
+.left-middle .mvSort{width: 30px;height: 30px;text-align: center;line-height: 30px;float: left;}
+.left-middle .mvSort.mvPlaying{background: url(../img/mvImg/mv-playing.png) no-repeat center;}
+.hoverIcon{width: 40px;height: 29px;line-height: 30px;display: none;position: absolute;right: 0;top: 0;}
+.left-middle li:hover .hoverIcon{display: block;}
+.left-middle .mvShare-hover,.left-middle .mvDel-hover,
+.left-middle .mvCollected-hover{width: 12px;height: 12px;background: url(../img/mvImg/mv-collected-hover.png) no-repeat;}
+.left-middle .mvCollected-hover:hover{background: url(../img/mvImg/mv-collected.png) no-repeat;}
+.left-middle .mvShare-hover{background: url(../img/mvImg/mv-share-hover.png) no-repeat;}
+.left-middle .mvShare-hover:hover{background: url(../img/mvImg/mv-share.png) no-repeat;}
+.left-middle .mvDel-hover{background: url(../img/mvImg/mv-delete-hover.png) no-repeat;}
+.left-middle .mvDel-hover:hover{background: url(../img/mvImg/mv-delete.png) no-repeat;}
+/*弹幕文字框*/
+.left-bottom{width: 100%;padding: 0 13px;}
+.mvBarrage{border-top: 1px solid #84B3CA;width: 100%;height:100%;padding: 0 10px;position: relative}
+.mvBarrageTitle{color: #fff;height: 20px;line-height: 20px;}
+.left-bottom textarea{width: 100%;height: 65px;background: #fff;border: 1px solid #2F4A5A;}
+.left-bottom textarea:focus{border: 1px solid #2E8DED;}
+.mvBarrageBtn{width: 60px;height: 18px;line-height: 16px;text-align: center;border: 1px solid #F2F2F2;
+    background: rgba(242,242,242,.42);border-radius: 2px;margin-left: 122px;margin-top: 5px;cursor:pointer;
+    position: absolute;right: 12px;bottom: -23px;
+}
+.mvBarrageBtn:active{background: rgba(242,242,242,.72);}
+.bulletScreenContent{display:inline-block;width:auto;height:16px;background-color: rgba(0,0,0,0);
+    color: #FFFFFF;font: 16px/16px "微软雅黑";overflow: hidden}
+
+/*视频播放器区域*/
+.MVContent-middle{width: 1277px;height: 835px;margin-left: 15px;}
+.MVContent-middle .mv-video.flowHidden{width:100%;height:100%;background-color: #000;position: relative;overflow: hidden}
+.MVContent-middle .mv-video.flowVisible{width:100%;height:100%;background-color: #000;position: relative;}
+video::-webkit-media-controls-enclosure{display:none !important;}
+
+/*歌词区域*/
+.MVContent-right{width: 318px;height: 100%;border: 2px solid transparent;border-top: none;}
+.lyricTitle{width:100%;height: 40px;padding: 0 10px;line-height: 41px;font-size: 18px;text-align: center;
+    border-top: 2px solid rgba(255,255,255,.5);border-left: 2px solid rgba(255,255,255,.5);
+    border-right: 2px solid rgba(255,255,255,.5);border-top-right-radius: 10px;border-top-left-radius: 10px;
+    font-weight: bold;color: #fff;background: rgba(242,242,242,.31);}
+.tab-bgBox{width:100%;height: 210px;border-bottom-right-radius: 3px;border-bottom-left-radius: 3px;
+    border-left: 2px solid rgba(255,255,255,.5);border-right: 2px solid rgba(255,255,255,.5);padding-top: 10px;
+    background: rgba(242,242,242,.31);}
+.tab-bg{width:190px;height:190px;margin:0 auto;background:url(../img/mvImg/audio-lyc.png) no-repeat;padding-top: 150px;}
+.tab-bg a{display: inline-block;width: 70px;height: 28px;line-height: 28px;text-align: center;border-radius: 18px;
+    background-color: #7C95A4;color: #f2f2f2;font-size: 14px;margin-left: 35%;}
+.tab-bg a:hover{background: #fff;color: #6B6B6B;}
+.tab-bg a:hover i{background: url(../img/mvImg/thumb-up-small.png) no-repeat;}
+.tab-bg .praise i{  width:14px;height:14px;background: url(../img/mvImg/thumb-up-sm.png) no-repeat;  }
+/*歌词*/
+.mvLyric{width:100%;height: 585px;border-bottom-right-radius: 3px;border-bottom-left-radius: 3px;
+    border: 2px solid rgba(255,255,255,.5);border-top: none;background: rgba(242,242,242,.31);}
+.mvLyric p{text-align: center;width: 200px;height: 28px;padding: 5px 0;margin: 0 auto;cursor: pointer;color: #FFFFFF;
+    overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.mvLyric .line{width: 190px;margin: 0 auto;border-top: 1px solid #4E778F;}
+.songName{width:100%;height: 75px;}
+.songContent{width:100%;height: 500px;overflow: hidden;}
+
+/*底部*/
+.MVFooter{width:100%;max-width: 1920px;height:90px;padding-top:30px;margin:0 auto;position: absolute;left:0;bottom:0;
+    z-index: 2147483648}
+.MVFooter .footer{width:100%;height:60px;background-color: rgba(0,0,0,.35);}
+.footer > div {height: 60px;}
+/*播放键*/
+.MVFooter .play{width: 150px;padding: 20px 0 0 20px;}
+.MVFooter .play a{display:inline-block;width: 18px;height: 18px;}
+.MVFooter .prevPlay{background: url(../img/mvImg/prev.png) no-repeat;}
+.MVFooter .mvPlay{background: url(../img/mvImg/mv-play3.png) no-repeat;margin: 0 23px;  }
+.MVFooter .mvPause{background: url(../img/mvImg/mv-pause.png) no-repeat;margin: 0 23px;}
+.MVFooter .nextPlay{background: url(../img/mvImg/next.png) no-repeat;}
+/*播放进度条*/
+.MVFooter .progressBar{width: 1150px;color: #E4E4E4}
+.MVFooter .progressBar .playName{padding-top: 10px;}
+.MVFooter .progressBar .mvName{font-size: 14px;}
+.MVFooter .progressBar .playTime{font-size: 12px;}
+.MVFooter .progressBar .playLine{width: 100%;height: 10px;position: relative;}
+.MVFooter .playLine span {display: inline-block;position: absolute;  }
+.MVFooter .progressBar .proLoaded{width: 100%;height: 2px;top:4px;background-color: rgb(201,201,201);}
+.MVFooter .progressBar .proDot{width: 10px;height: 10px;top: 0;left:20%;border-radius: 50%;background-color: #fff;
+    transition:left 0.01s}
+.MVFooter .progressBar .proBar{width: 20%;height: 2px;top:4px;background-color: blue;transition:width 0.01s}
+.MVFooter .progressBar .progress{width: 10%;height: 2px;top:4px;background-color: #000000;transition:width 0.01s}
+
+/*音量*/
+.MVFooter .playVolume{width: 100px;padding-top:20px;margin-left: 14px;position: relative;}
+.MVFooter .playVolume span{display: inline-block;position: absolute}
+.MVFooter .playVolume .volumeIcon{width: 20px;height: 17px;}
+.MVFooter .playVolume .muted{background: url(../img/mvImg/silent.png) no-repeat;}
+.MVFooter .playVolume .normal{background: url(../img/mvImg/volume.png) no-repeat;}
+.MVFooter .playVolume .volumePro{width: 88px;height: 18px;}
+.MVFooter .playVolume .volumeLoaded{width: 63px;height: 2px;top: 27px;left: 24px;background-color: rgb(201,201,201);}
+.MVFooter .playVolume .volumeDot{width:10px;height:10px;border-radius:50%;top:23px;left:50px;background-color: #fff;}
+.MVFooter .playVolume .volumeBar{width: 30px;height: 2px;top: 27px;left: 24px;background-color: #fff;}
+
+/*全屏，弹幕，分享设置*/
+.MVFooter .playSetting{width: 200px;}
+.MVFooter .playSetting span{display: inline-block;width: 31px;height: 29px;margin:15px 34px 0 0;cursor: pointer;}
+.MVFooter .playSetting .settingShare{background: url(../img/mvImg/mvShare3.png) no-repeat;}
+.MVFooter .playSetting .settingShare:hover{background: url(../img/mvImg/mvShare4.png) no-repeat;}
+.MVFooter .playSetting .settingDanMu.open{background: url(../img/mvImg/barrage.png) no-repeat;}
+.MVFooter .playSetting .settingDanMu.off{background: url(../img/mvImg/close-barrage.png) no-repeat;}
+.MVFooter .playSetting .settingFullScreen{background: url(../img/mvImg/full-screen.png) no-repeat;}
+.MVFooter .playSetting .ExitFullScreen{background: url(../img/mvImg/ExitFullScreen.png) no-repeat;}
+
+
